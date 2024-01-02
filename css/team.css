@@ -1,0 +1,46 @@
+.team-content {
+  overflow: hidden;
+}
+.team {
+  height: 650px;
+}
+.team-item {
+  width: 30%;
+  float: left;
+  background-color: #e8e8e8;
+  padding: 20px 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #999;
+  transition: transform 0.5s;
+}
+.team-item:hover {
+  transform: scale(1.1);
+}
+.team-item.mg {
+  margin: 0 5%;
+}
+.team-item .team-img {
+  width: 90%;
+  margin: auto;
+}
+.team-item .team-img img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.team-item .team-info {
+  text-align: center;
+  line-height: 1.4;
+}
+.team-item .team-info .team-info-title {
+  font-size: 20px;
+}
+.links {
+  text-align: center;
+  margin: 8px 0;
+}
+.team-item .links a i {
+  color: #6195ff;
+  margin: 8px;
+  font-size: 20px;
+}
